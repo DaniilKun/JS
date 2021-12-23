@@ -1,0 +1,24 @@
+Дана строка 'abcde'. Обращаясь к отдельным символам этой строки выведите на экран символ 'a', символ 'c', символ 'e'.
+
+
+
+let str = 'abcde'
+
+alert (str[4])
+
+let num=4
+
+let num1=3
+
+let num2=2
+
+let num3=1
+
+let num4=0
+
+alert (str[4]+str[3]+str[2]+str[1]+str[0])
+
+
+
+
+
