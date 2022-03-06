@@ -1,0 +1,18 @@
+.wrapper{
+  height: 100%;
+ 
+}
+
+.screen{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  gap: 2px;
+  height: calc(100vh - 16px);
+  width: calc(50vh - 8px);
+  background: dimgray;
+}
+
+.block{
+background: darkslategray;
+}
