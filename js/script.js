@@ -21,7 +21,7 @@ listItems.forEach(li => {
   })
 
   li.addEventListener('mouseout', (event) => {
-    if (hoveredItem) hoveredItem.style = `` ;
+    if (hoveredItem) hoveredItem.style = ``;
     hoveredItem = null;
   })
 })
